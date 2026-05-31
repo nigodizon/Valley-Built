@@ -32,6 +32,7 @@ jobs:
           mkdir public
           cp -r src/* public/
           cp -r imgs public/imgs
+          echo "valleybuilt.dev" > public/CNAME
           sed -i 's#../imgs/#imgs/#g' public/components/navbar.html
           sed -i 's#../imgs/#imgs/#g' public/components/footer.html
 
