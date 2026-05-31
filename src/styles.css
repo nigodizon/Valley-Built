@@ -62,7 +62,7 @@
       .logo img {
         display: block;
         width: auto;
-        height: 46px;
+        height: 104px;
         object-fit: contain;
       }
       .nav-right {
@@ -929,7 +929,7 @@
       .footer-logo img {
         display: block;
         width: auto;
-        height: 46px;
+        height: 104px;
         object-fit: contain;
       }
       footer p {
